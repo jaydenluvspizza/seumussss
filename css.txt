@@ -1,0 +1,108 @@
+.huge-text {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-text {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.apology {
+    font-family: 'Impact', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.pig-image {
+    max-height: 200px;
+    width: auto;
+}
+
+.pizza {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><circle cx="10" cy="10" r="9" fill="%23F2C94C"/><circle cx="7" cy="7" r="1.5" fill="%23EB5757"/><circle cx="13" cy="7" r="1.5" fill="%23EB5757"/><circle cx="7" cy="13" r="1.5" fill="%23EB5757"/><circle cx="13" cy="13" r="1.5" fill="%23EB5757"/></svg>');
+    background-size: contain;
+    z-index: 0;
+}
+
+

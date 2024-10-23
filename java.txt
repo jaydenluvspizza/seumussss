@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const body = document.body;
+    const pizzaCount = 50; // Adjust this number to add more or fewer pizzas
+
+    for (let i = 0; i < pizzaCount; i++) {
+        const pizza = document.createElement('div');
+        pizza.className = 'pizza';
+        
+        // Random position
+        pizza.style.left = `${Math.random() * 100}vw`;
+        pizza.style.top = `${Math.random() * 100}vh`;
+        
+        // Random rotation
+        pizza.style.transform = `rotate(${Math.random() * 360}deg)`;
+        
+        body.appendChild(pizza);
+    }
+
+    // ... existing code ...
+});
